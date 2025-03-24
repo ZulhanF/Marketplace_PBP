@@ -16,7 +16,7 @@ body {
   align-items: center;
   z-index: 99999;
   position: fixed;
-  background-color: #6a7337;
+  background-color: #4C523B;
   top: 0;
   box-sizing: border-box;
   padding: 0 30px;
@@ -33,13 +33,12 @@ body {
 .nav-left li {
   margin-right: 30px;
   font-size: 20px;
-  font-family: Quicksand, monospace;
+  font-family: "Roboto Condensed", monospace;
 }
 
 .nav-right li {
   margin-left: 15px;
   font-size: 20px;
-  font-family: Quicksand, monospace;
 }
 
 .nav-left li,
@@ -60,11 +59,11 @@ body {
 }
 
 .navbar a:hover {
-  color: #2b310a;
+  color: #1F1F1F;
 }
 
 #carouselExampleControls{
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .caption h1 {
@@ -90,4 +89,64 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: "Chakra Petch","Courier New", Courier, monospaceX;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px #6a7337;
+  border-radius: 7px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.info a{
+  text-decoration: none;
+  color: white;
+}
+
+.fitur {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #A39976;
+  border-radius: 8px;
+  padding: 20px;
+  width: 85%;
+  margin: 15px auto;
+  background-color: #504E29;
+}
+
+.isi {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  flex: 1;
+  min-width: 200px;
+  height: 60px;
+}
+
+
+.isi .material-symbols-outlined {
+  font-size: 45px;
+  color: azure;
+}
+
+
+.text h6 {
+  font-size: 16px;
+ color: aliceblue;
+  margin: 0;
+}
+
+.text p {
+  font-size: 14px;
+  color: whitesmoke;
+  margin: 5px 0 0;
+}
+
+.isi:not(:first-child) {
+  border-left: 1px solid #A39976;
+  padding-left: 20px;
 }
