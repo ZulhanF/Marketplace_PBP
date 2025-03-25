@@ -21,6 +21,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
     <link rel="shortcut icon" href="img/fav_small.webp" type="image/x-icon" />
   </head>
   <body>
@@ -28,7 +32,20 @@
       <div class="nav-left">
         <ul>
           <li><a href="">BERANDA</a></li>
-          <li><a href="">KATALOG</a></li>
+          <li>
+            <a href="" id="tombolkatalog"
+              >KATALOG
+              <i class="material-symbols-outlined" style="font-size: 18px">
+                expand_more
+              </i></a
+            >
+          </li>
+          <div class="dropdown" id="katalog">
+            <a href="">Weapon</a>
+            <a href="">Ammunition</a>
+            <a href="">Attachments</a>
+            <a href="">Armory</a>
+          </div>
           <li><a href="">KONTAK</a></li>
           <li><a href="">TENTANG</a></li>
         </ul>
@@ -40,6 +57,13 @@
 
       <div class="nav-right">
         <ul>
+          <li>
+            <a href=""
+              ><i class="material-symbols-outlined" style="font-size: 35px"
+                >search</i
+              ></a
+            >
+          </li>
           <li>
             <a href=""
               ><i class="material-symbols-outlined" style="font-size: 35px"
@@ -119,36 +143,72 @@
 
     <div class="fitur">
       <div class="isi">
-          <span class="material-symbols-outlined">delivery_truck_speed</span>
-          <div class="text">
-              <h6>Gratis Ongkir ke Seluruh Jawa</h6>
-              <p>Jaminan Aman dan Cepat</p>
-          </div>
+        <span class="material-symbols-outlined">delivery_truck_speed</span>
+        <div class="text">
+          <h6>Gratis Ongkir ke Seluruh Jawa</h6>
+          <p>Jaminan Aman dan Cepat</p>
+        </div>
       </div>
       <div class="isi">
-          <span class="material-symbols-outlined">support_agent</span>
-          <div class="text">
-              <h6>24*7 Online Support</h6>
-              <p>24*7 Online Support</p>
-          </div>
+        <span class="material-symbols-outlined">support_agent</span>
+        <div class="text">
+          <h6>24*7 Online Support</h6>
+          <p>24*7 Online Support</p>
+        </div>
       </div>
       <div class="isi">
-          <span class="material-symbols-outlined">redeem</span>
-          <div class="text">
-              <h6>Voucher Diskon</h6>
-              <p>Dapatkan Diskon Besar-Besaran</p>
-          </div>
+        <span class="material-symbols-outlined">redeem</span>
+        <div class="text">
+          <h6>Voucher Diskon</h6>
+          <p>Dapatkan Diskon Besar-Besaran</p>
+        </div>
       </div>
       <div class="isi">
-          <span class="material-symbols-outlined">credit_score</span>
-          <div class="text">
-              <h6>Pembayaran Mudah</h6>
-              <p>Sistem Pembayaran Lengkap dan Terjamin</p>
-          </div>
+        <span class="material-symbols-outlined">credit_score</span>
+        <div class="text">
+          <h6>Pembayaran Mudah</h6>
+          <p>Sistem Pembayaran Lengkap dan Terjamin</p>
+        </div>
       </div>
-  </div>
+    </div>
     <main>
-      <h1>Belanja Berdasar Kategori</h1>
+      <div class="kategori">
+        <h1>TOP COLLECTION</h1>
+        <div class="kategori-list">
+          <div class="kategori-item">
+            <img src="img/custom_showcase1_img.avif" alt="Kategori 1" />
+            <div class="kategori-text">
+              <a href=""><h3>KNIVES</h3></a>
+              <a href=""><h4>COLLECTION</h4></a>
+            </div>
+            <div class="triangle"></div>
+            <i class="bi bi-chevron-right arrow"></i>
+          </div>
+          <div class="kategori-item">
+            <img src="img/custom_showcase2_img.avif" alt="Kategori 1" />
+            <div class="kategori-text">
+              <a href=""><h3>HANDGUNS</h3></a>
+              <a href=""><h4>COLLECTION</h4></a>
+            </div>
+            <div class="triangle"></div>
+            <i class="bi bi-chevron-right arrow"></i>
+          </div>
+          <div class="kategori-item">
+            <img src="img/custom_showcase3_img.avif" alt="Kategori 1" />
+            <div class="kategori-text">
+              <a href=""><h3>RIFLE</h3></a>
+              <a href=""><h4>COLLECTION</h4></a>
+            </div>
+            <div class="triangle"></div>
+            <i class="bi bi-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="produk">
+        <h1>BESTSELLERS</h1>
+        <p>Check out the most popular products.</p>
+      </div>
     </main>
     <footer></footer>
     <script
@@ -156,5 +216,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="sript.js"></script>
   </body>
 </html>
