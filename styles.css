@@ -1,5 +1,5 @@
 * {
-  margin: 0 ;
+  margin: 0;
   padding: 0;
 }
 body {
@@ -16,7 +16,7 @@ body {
   align-items: center;
   z-index: 99999;
   position: fixed;
-  background-color: #746B5A;
+  background-color: #746b5a;
   top: 0;
   box-sizing: border-box;
   padding: 0 30px;
@@ -68,11 +68,11 @@ nav-left {
 
 .dropdown {
   position: absolute;
-  background-color: #746B5A;
+  background-color: #746b5a;
   padding: 10px;
   border-radius: 4px;
   display: none;
-  top: 50px; 
+  top: 50px;
   left: 10%;
 }
 
@@ -93,7 +93,7 @@ nav-left {
   background-color: #5b5243;
 }
 
-#carouselExampleControls{
+#carouselExampleControls {
   margin-top: 30px;
 }
 
@@ -108,7 +108,7 @@ nav-left {
   letter-spacing: 2px;
   font-size: 3rem;
   font-weight: 400;
-  font-family: audiowide,"Courier New", Courier, monospaceX;
+  font-family: audiowide, "Courier New", Courier, monospaceX;
 }
 
 .caption p {
@@ -119,7 +119,7 @@ nav-left {
   color: whitesmoke;
   font-size: 20px;
   text-align: center;
-  font-family: "Chakra Petch","Courier New", Courier, monospaceX;
+  font-family: "Chakra Petch", "Courier New", Courier, monospaceX;
 }
 
 .info {
@@ -132,7 +132,7 @@ nav-left {
   margin: 20px auto;
 }
 
-.info a{
+.info a {
   text-decoration: none;
   color: white;
 }
@@ -141,7 +141,7 @@ nav-left {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid #DFC39F;
+  border: 2px solid #dfc39f;
   border-radius: 3px;
   padding: 20px;
   width: 85%;
@@ -152,22 +152,20 @@ nav-left {
 .isi {
   display: flex;
   align-items: center;
-  gap: 15px; 
+  gap: 15px;
   flex: 1;
   min-width: 200px;
   height: 60px;
 }
-
 
 .isi .material-symbols-outlined {
   font-size: 45px;
   color: azure;
 }
 
-
 .text h6 {
   font-size: 16px;
- color: aliceblue;
+  color: aliceblue;
   margin: 0;
 }
 
@@ -178,7 +176,7 @@ nav-left {
 }
 
 .isi:not(:first-child) {
-  border-left: 1px solid #A39976;
+  border-left: 1px solid #a39976;
   padding-left: 20px;
 }
 
@@ -192,10 +190,10 @@ nav-left {
   margin: 10px auto;
 }
 
-.kategori h1{
+.kategori h1 {
   color: white;
-  font-family: "Chakra Petch",'Courier New', Courier, monospace;
-  margin-bottom: 20px
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  margin-bottom: 20px;
 }
 
 .kategori-list {
@@ -207,7 +205,7 @@ nav-left {
   position: relative;
 }
 
-.kategori-text{
+.kategori-text {
   position: absolute;
   left: 30px;
   top: 51px;
@@ -218,34 +216,34 @@ nav-left {
 }
 
 .kategori h3 {
-  font-family: 'Chakra Petch','Open Sans', sans-serif;
+  font-family: "Chakra Petch", "Open Sans", sans-serif;
   color: #e0e0e0;
   font-size: 50px;
   line-height: 50px;
   font-weight: 600;
   margin: 0px 0 5px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 .kategori h4 {
   font-size: 30px;
   line-height: 30px;
-  color: #DFC39F;
+  color: #dfc39f;
   font-weight: 300;
   margin: 0px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   font-weight: 300;
-  font-family: Quicksand,'Open Sans', sans-serif;
+  font-family: Quicksand, "Open Sans", sans-serif;
 }
 
 .kategori-item:hover img {
   transform: scale(1.1);
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   cursor: pointer;
 }
 
 .kategori-item:hover h3 {
-  color: #DFC39F;
+  color: #dfc39f;
 }
 
 .kategori-item:hover h4 {
@@ -256,7 +254,6 @@ nav-left {
   overflow: hidden;
   position: relative;
 }
-
 
 .arrow {
   position: absolute;
@@ -275,12 +272,91 @@ nav-left {
   height: 0;
   border-left: 40px solid transparent;
   border-top: 40px solid transparent;
-  border-right: 40px solid #DFC39F;
-  border-bottom: 40px solid #DFC39F;
+  border-right: 40px solid #dfc39f;
+  border-bottom: 40px solid #dfc39f;
   z-index: 1;
 }
 
 .kategori-item:hover .triangle {
   border-right: 40px solid #3a3a3a;
   border-bottom: 40px solid #3a3a3a;
+}
+
+.produk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.produk h1 {
+  color: white;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.produk h6 {
+  color: white;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 80%;
+  top: 145%;
+  border: 1px solid #dfc39f;
+  padding: 15px;
+  cursor: pointer;
+}
+.produk p {
+  color: rgb(194, 194, 194);
+  font-family: Quicksand, "Courier New", Courier, monospace;
+  margin-bottom: 20px;
+}
+
+.produk h6:hover {
+  background-color: #dfc39f;
+  color: #3a3a3a;
+}
+
+.list-produk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  width: 300px;
+  height: 400px;
+  background-color: #3a3a3a;
+  position: relative;
+  margin-top: 20px;
+}
+.item p{
+  color: white;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  margin: 10px 10px;
+  font-weight: 500;
+}
+.item img {
+  transition: filter 0.3s ease; 
+}
+
+.item:hover img {
+  filter: brightness(0.8); 
+}
+
+.item:hover{
+  background-color: #dfc39f;
+}
+
+.item:hover p{
+  color: #3a3a3a;
+  font-weight: 700;
 }
