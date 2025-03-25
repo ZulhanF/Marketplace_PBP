@@ -101,7 +101,7 @@ nav-left {
   font-family: Quicksand, "Courier New", Courier, monospace;
 }
 .search-button {
-  background: #8E8B5E;
+  background: #8e8b5e;
   color: white;
   padding: 10px 20px;
   font-size: 14px;
@@ -120,7 +120,7 @@ nav-left {
 .search.show {
   display: flex;
 }
-.nav-center.hide{
+.nav-center.hide {
   display: none;
 }
 #input {
@@ -350,8 +350,8 @@ nav-left {
 }
 
 .produk h6:hover {
-  background-color: #dfc39f;
   color: #3a3a3a;
+  background-color: #dfc39f;
 }
 
 .list-produk {
@@ -368,7 +368,7 @@ nav-left {
   justify-content: flex-start;
   align-items: left;
   width: 300px;
-  height: 450px;
+  height: 430px;
   background-color: #3a3a3a;
   position: relative;
   margin-top: 20px;
@@ -380,6 +380,7 @@ nav-left {
   font-weight: 500;
   border-bottom: 2px solid #dfc39f;
   padding-bottom: 5px;
+  flex-grow: 1;
 }
 .item img {
   transition: filter 0.3s ease;
@@ -397,4 +398,41 @@ nav-left {
   color: #3a3a3a;
   font-weight: 700;
   border-bottom: 2px solid #3a3a3a;
+}
+
+.harga h5 {
+  color: white;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  margin: 10px 10px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.item:hover h5 {
+  color: #3a3a3a;
+}
+.harga {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+  padding-bottom: 10px;
+}
+.keranjang {
+  border: 1px solid #dfc39f;
+  color: #f4f4f4;
+  font-family: "Chakra Petch",'Courier New', Courier, monospace;
+  font-size: 5px;
+  cursor: pointer;
+}
+.keranjang h3{
+  color: #dfc39f;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px;
+}
+.item:hover h3 {
+border: 1px solid #3a3a3a;
+background-color: #8e8b5e;
+  color: #1e1f23;
 }
