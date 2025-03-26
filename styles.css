@@ -441,6 +441,40 @@ nav-left {
   background-color: #72714c;
   color: #1e1f23;
 }
+
+.tentang {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 20px auto;
+}
+
+.tentang-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  border: 1px solid #dfc39f;
+  border-left: none;
+  padding: 20px;
+}
+
+.tentang h1 {
+  color: white;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  margin: 0 auto;
+}
+.tentang h2 {
+  color: transparent;
+  -webkit-text-stroke: 0.5px #dfc39f;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 50px;
+}
+
 .mintaemail {
   width: 100%;
   height: 350px;
@@ -509,6 +543,6 @@ footer {
   font-family: "Chakra Petch", "Courier New", Courier, monospace;
 }
 
-footer p{
+footer p {
   margin: 25px;
 }
