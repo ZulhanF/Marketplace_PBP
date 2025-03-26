@@ -71,8 +71,8 @@ nav-left {
   background-color: #1e1f23;
   padding: 10px;
   display: none;
-  top: 70px;
-  left: 8%;
+  top: 60px;
+  left: 10%;
 }
 
 .dropdown.show {
@@ -114,7 +114,7 @@ nav-left {
   text-transform: uppercase;
 }
 .search-button:hover {
-  background: #5b5b5b;
+  background: #72714c;
   color: white;
 }
 .search.show {
@@ -212,6 +212,7 @@ nav-left {
   font-size: 14px;
   color: whitesmoke;
   margin: 5px 0 0;
+  min-height: 35px;
 }
 
 .isi:not(:first-child) {
@@ -337,7 +338,7 @@ nav-left {
   font-family: "Chakra Petch", "Courier New", Courier, monospace;
   margin-bottom: 20px;
   position: absolute;
-  left: 80%;
+  left: 79.5%;
   top: 145%;
   border: 1px solid #dfc39f;
   padding: 15px;
@@ -383,7 +384,7 @@ nav-left {
   flex-grow: 1;
 }
 .item img {
-  transition: filter 0.3s ease;
+  transition: filter 0.5s ease;
 }
 
 .item:hover img {
@@ -420,11 +421,11 @@ nav-left {
 .keranjang {
   border: 1px solid #dfc39f;
   color: #f4f4f4;
-  font-family: "Chakra Petch",'Courier New', Courier, monospace;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
   font-size: 5px;
   cursor: pointer;
 }
-.keranjang h3{
+.keranjang h3 {
   color: #dfc39f;
   font-size: 13px;
   font-weight: 700;
@@ -432,7 +433,82 @@ nav-left {
   padding: 10px;
 }
 .item:hover h3 {
-border: 1px solid #3a3a3a;
-background-color: #8e8b5e;
+  border: 1px solid #3a3a3a;
+  background-color: #8e8b5e;
   color: #1e1f23;
+}
+.keranjang:hover h3 {
+  background-color: #72714c;
+  color: #1e1f23;
+}
+.mintaemail {
+  width: 100%;
+  height: 350px;
+  background: url(img/mintaemail.jpg);
+  background-size: cover;
+  margin: 50px auto;
+  padding: 50px 50px;
+  text-align: center;
+}
+
+.mintaemail h1 {
+  color: white;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.mintaemail p {
+  color: white;
+  font-family: Quicksand, "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.langganan {
+  display: flex;
+  width: 600px;
+  overflow: hidden;
+  position: absolute;
+  left: 35%;
+  font-family: Quicksand, "Courier New", Courier, monospace;
+}
+.tombol {
+  background: #8e8b5e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.tombol:hover {
+  background: #72714c;
+  color: white;
+}
+#subs {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1f23;
+  color: #dfc39f;
+  height: 80px;
+  font-family: "Chakra Petch", "Courier New", Courier, monospace;
+}
+
+footer p{
+  margin: 25px;
 }
