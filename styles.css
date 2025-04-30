@@ -469,7 +469,7 @@ nav-left {
 }
 .tentang h2 {
   color: transparent;
-  -webkit-text-stroke: 0.5px #dfc39f;
+  -webkit-text-stroke: 1px #dfc39f;
   font-family: "Chakra Petch", "Courier New", Courier, monospace;
   font-style: italic;
   font-size: 50px;
